@@ -1,10 +1,6 @@
-# Supported tags and respective Dockerfile links
+#Supported tags and respective Dockerfile links
 
 - [`0.1.0`, `0.1.0` (*0.1.0/Dockerfile*)](https://github.com/Accenture/adop-nginx/blob/master/Dockerfile.md)
-
-# Build Status
-
-[![Build Status](https://travis-ci.org/Accenture/adop-nginx.svg?branch=master)](https://travis-ci.org/Accenture/adop-nginx)
 
 # What is adop-nginx?
 
@@ -22,7 +18,7 @@ adop-nginx provides Nginx with LDAP support. Nginx is a high performance reverse
         -v /var/log:/var/log 
         -p 443:443 \
         -p 80:80 \
-        accenture/adop-nginx:VERSION
+        adop/nginx:VERSION
         
 ## Configuration
 
